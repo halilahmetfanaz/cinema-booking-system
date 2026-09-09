@@ -1,11 +1,11 @@
 # cinema-booking-system
-A relational database design and Ms-SQL implementation for cinema booking operations, modeled in 3NF.
+A relational database design and MS SQL implementation for cinema booking operations, modeled in 3NF.
 
 ## Entity RelationShip (ER) Diagram
 <img width="3892" height="1839" alt="erd-diagram" src="https://github.com/user-attachments/assets/c6c6e192-77d1-44ef-b3a5-022a6fa9c208" />
 
 ## Key Features
-- Normalized Schema (3NF) : Solved many-to-many relationship between movies and directors vis `MovieDirectors` junction table.
+- Normalized Schema (3NF) : Solved many-to-many relationship between movies and directors via `MovieDirectors` junction table.
 - Data Integrity Constraints :
   - `Hall_Session`: Prevents double booking of halls at the exact same date and time.
   - `Session_Seat`: Enforces unique seat reservations per session.
